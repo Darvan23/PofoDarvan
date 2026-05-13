@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Darvan Suleiman</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contacteer Mij</h1>
+        <nav>
+            <ul>
+                <li><a href="profile.html">🏠 Profile</a></li>
+                <li><a href="portofolio.html">📁 project</a></li>
+                <li><a href="skills.html">🛠 skills</a></li>
+                <li><a href="contact.html" class="active">📞 Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contact Information Section -->
+        <section id="contact-info">
+            <h2>Contact Informatie</h2>
+            <p>Neem gerust contact met mij op via de onderstaande gegevens:</p>
+            
+            <ul class="my-contact">
+                <li><strong>Email:</strong> <a href="mailto:darvankameran69616@gmail.com">darvankameran69616@gmail.com</a></li>
+                <li><strong>Telefoon:</strong> <a href="tel:+3140665061">+31 6 4066 5061</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/darvansuleiman">Darvan Suleiman</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/darvansuleiman">darvansuleiman</a></li>
+            </ul>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact-form">
+            <h2>Stuur een Bericht</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Bericht:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Verstuur</button>
+            </form>
+        </section>
+
+        <!-- Map Section (Optional, if relevant) -->
+        <section id="location">
+            <h2>Mijn Locatie</h2>
+            <p>Als je liever persoonlijk contact wilt, kun je mij op de onderstaande locatie vinden:</p>
+            <div id="map-container">
+                <!-- Embed Google Map here -->
+                <iframe src="https://www.google.com/maps/embed?pb=...brasserskade-1..."></iframe>
+            </div>
+        </section>
+
+        <!-- Social Media Links Section -->
+        <section id="social-media">
+            <h2>Volg Mij</h2>
+            <p>Volg mij op sociale media voor meer updates, projecten en nieuws!</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/darvansuleiman">LinkedIn</a></li>
+                <li><a href="https://github.com/darvansuleiman">GitHub</a></li>
+                <li><a href="https://twitter.com/darvansuleiman">Twitter</a></li>
+                <li><a href="https://www.instagram.com/darvansuleiman">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Darvan Suleiman. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
